@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<head>
+<title>Moja pierwsza strona www</title>
+</head>
+<body>
+	<div style="background-color:gray;">
+		<h1><center>Projektowanie Stron Internetowych-Wiktor Grabarz</center></h1>
+	</div>
+	<div style="float:left;width:30%;height:550px;">
+	<h3>HTML</h3>
+		<a href="index.html">STRONA GŁÓWNA </a></br>
+		<a href="kolory.html">KOLORY </a></br>
+		<a href="nauczyciele.html">NAUCZYCIELE </a></br>
+		<a href="zdjecia.html">ZDJĘCIA </a></br>
+		<a href="tabela.html">TABELA </a></br>
+		<a href="Tabela_Grabarz.html">TABELA NA OCENĘ </a></br>
+		<a href="lista.html">LISTY </a></br>
+		<a href="Listy_Grabarz.html">LISTA NA OCENĘ </a></br>
+		<a href="Formularz.html">FORMULARZ </a></br>
+		<a href="Mapy_Odsylaczy.html">MAPY ODSYŁACZY </a></br>
+		<a href="formularznaocene.html">FORMULARZ NA OCENĘ</a></br>
+	</div>
+	<div style ="float:right;width:70%;">
+	<form name="Formularz">
+	Pole Tekstowe&nbsp;<input type="text" name="Pole-Tekstowe" id="MyInput" onfocus="focusFunction()" onblur="blurFunction()"/>
+	<script>
+	function focusFunction() {
+		document.getElementById("MyInput").style.background=
+	</script>
+	<br /> <br />
+	Pole Email&nbsp;<input type="email" name="Pole-Email"/> <br /> <br />
+	Hasło&nbsp;<input type="password" name="password" /> <br /> <br />
+	Reset <input type="reset" name="reset" value="reset"/><br /><br />
+	<label for="opcja1"> opcja1 </label>
+	<input type="radio" name="opcje" id="opcja1" value="opcja1"/> <br /> <br />
+	<label for="opcja2"> opcja2 </label>
+	<input type="radio" name="opcje" id="opcja2" value="opcja2"/> <br /> <br />
+	
+	Opcja1 <input type="checkbox" name="opcja1" /> <br /> <br />
+	Opcja2 <input type="checkbox" name="opcja2" /> <br /> <br />
+	Opcja3 <input type="checkbox" name="opcja3" /> <br /> <br />
+	<select name="Opcje" multiple="multiple">
+		<optgroup>
+			<option value="Opcja1">Opcja1</option>
+			<option value="Opcja2">Opcja2</option>
+			<option value="Opcja3">Opcja3</option>
+		</optgroup>
+	</select><br /><br />
+	<button type="button" name="przycisk" value="wyślij" onclick="alert('Formularz Wyslany')">Przycisk </button><br /><br />
+	<input type="file" name="plik"/><br /><br />
+	<textarea name="poletekst" cols="6" rows="8" style ="width:600px">Tekst</textarea><br /><br />
+	Suwak <input type="range" name="suwak" min="0" max="100"/><br /><br />
+	<input type="image" name="gekon" src="fotywg/gekon.jfif"/><br /><br />
+	Data<input type="date"/><br /><br />
+	Kolor<input type="color"/><br /><br />
+	Numery<input type="number" min="0" max="7"><br /><br />
+	<input list="blok" name="przeglądarki"/>
+	<datalist id="blok">
+		<option value="firefox"> 
+		<option value="opera"> 
+		<option value="chrome">
+		<option value="safari">
+		<option value="Internet Explorer">
+	</datalist> <input type="submit" name="Prześlij"/><br /><br />
+	<input type="text" required> Sprawdzam!!<br /><br />
+	Pole Tekstowe zablokowane <input type="text" name="Pole-Tekstowe" disabled> <br /> <br />
+	<input type="radio" name="opcje" id="opcja1" value="opcja1" accesskey="P"/>Alt+P <br /> <br />
+	<input type="radio" name="opcje" id="opcja2" value="opcja2" accesskey="W"/>Alt+W <br /> <br />
+	<input type="url" name="adres"/>Adres URL<br /><br />
+	<input type="text" id="myinput" onfocus="focusFunction()" onblur="blurFunction()">
+	<script>
+	function focusFunction() {
+		document.getElementById("myinput").style.background="yellow";
+	}
+	function blurFunction() {
+		document.getElementById("myinput").style.background="red";
+	}
+	</script>
+	</form>
+
+</div>
+	<div style ="background-color:gray;clear:both"><center>&copy;W.G,November 2024	</center></div>
+</body>
+</html>
