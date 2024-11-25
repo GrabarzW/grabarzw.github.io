@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<head>
+<title>Moja pierwsza strona www</title>
+</head>
+<body>
+	<div style="background-color:gray;">
+		<h1><center>Projektowanie Stron Internetowych-Wiktor Grabarz</center></h1>
+	</div>
+	<div style="float:left;width:30%;height:550px;">
+	<h3>HTML</h3>
+		<a href="index.html">STRONA GŁÓWNA </a><br />
+		<a href="kolory.html">KOLORY </a><br />
+		<a href="nauczyciele.html">NAUCZYCIELE </a><br />
+		<a href="zdjecia.html">ZDJĘCIA </a><br />
+		<a href="tabela.html">TABELA </a><br />
+		<a href="Tabela_Grabarz.html">TABELA NA OCENĘ </a><br />
+		<a href="lista.html">LISTY </a><br />
+		<a href="Listy_Grabarz.html">LISTA NA OCENĘ </a><br />
+		<a href="mapy_odsylaczy.html">MAPY ODSYŁACZY </a><br />
+		<h3>CSS</h3>
+		<h3>Dokumenty</h3>
+		<a href="DOC/Gr12c.docx" target="new"> Lista gr.1 </a><br />
+		<a href="DOC/WydatkiGr12c" target="new"> Wydatki gr.1</a> <br />
+		<h3>Linki</h3>
+		<a href="https://www.google.com" target="new"/>
+		<img src = "fotywg/R.png" width="100px"/> </a> <br /><br />
+		<a href="https://tsi-pai.cba.pl/" target="new"/>
+		<img src = "fotywg/TSI.png" width="100px"/> </a><br /><br />
+		<h3>Multimedia</h3><br /><br />
+	</div>
+		<fieldset><legend><h2 style="color:red";>DANE OSOBOWE</h2></legend>
+		<form>
+			
+			<p><input type="text" name="miej_data"/><br />
+			<b>Miejscowość i Data</b></p>
+			<p><b>Imię&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nazwisko</b><br />
+			<input type="text" name="imie"/>&nbsp; <input type="text" name="Nazwisko"/><br /><br /></p>
+			<p><b>Adres Zamieszkania</b><br />
+			<textarea name="Adres" cols="5" rows="5" style="width:220px">
+			</textarea></p><br />
+			<p><b>Telefon Kontaktowy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-mail</b><br />
+			<input type="tel" name="telefon" value="+48 500 000 000"/>&nbsp;<input type="email" name="e-mail" value="ciekawyosobnik@gmail.com"/></p>
+		</fieldset>
+		</form>
+		<fieldset><legend><h2 style="color:red";>FORMULARZ ZWROTU BUTÓW</h2></legend>
+		Zwracam w niezniszczonym stanie<br /><br />
+		<form>
+			<p><b>Nazwa-Marka-Towaru</b><br />
+			<input type="text" name="buty"/><br /></p>
+			<p><b>Kolor&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;Indeks&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;Rozmiar</b><br />
+			<input type="color" value="red"/><input type="text" name="Indeks"/><input type="checkbox" name="rozmiar37"/>&nbsp;37&nbsp;<input type="checkbox" name="rozmiar38"/>&nbsp;38&nbsp;<input type="checkbox" name="rozmiar39"/>&nbsp;39&nbsp;<input type="checkbox" name="rozmiar40"/>&nbsp;40&nbsp;<input type="checkbox" name="rozmiar41"/>&nbsp;41&nbsp;<input type="checkbox" name="rozmiar42"/>&nbsp;42&nbsp;<input type="checkbox" name="rozmiar43"/>&nbsp;43&nbsp;<input type="checkbox" name="rozmiar44"/>&nbsp;44&nbsp;<input type="checkbox" name="rozmiar45"/>&nbsp;45&nbsp;<br /></p>
+			<p><b>Dla Kogo:<br />
+			<label for="male"> Męskie</label>
+			<input type="radio" name="plec" id="male" value="Męskie">
+			<label for="famale"> Damskie</label>
+			<input type="radio" name="plec" id="famale" value="Damskie"> <br /></p>
+			<p><b>Data Zakupu</b><br />
+			<input type="date" value="2024-11-25"/></p><br >
+			<p>Przyczyna zwrotu</b><br />
+			<textarea name="zwrot" cols="5" rows="5" style="width:220px";></textarea>
+			<p><b>Kwota Zwrotu</b><br />
+			<input type="text" name="kwota"/></p>
+			<p><b>Dane do przelewu</b><br />
+			<textarea name="przelew" cols="5" rows="5" style="width:220px";>
+			Imię i nazwisko
+			Miejsce Zamieskania
+			Numer Konta
+			</textarea><br />
+			Zgodnie z ustawą z dnia 30 Maja 2014r. O prawach konsumenta (Dz U Z dnia 24 Czerwca 2014r poz.827)Niniejszym oświadczam że odstępuje od umowy sprzedaży.<br />
+			<center><button type="wyslij" name="wyslanie" value="WYŚLIJ" onclick="alert('Wysłano Formularz')"> WYŚLIJ </button></center><span style="text-align:right">Data i podpis klienta<br /><input type="text" name="podpis"/></span>
+		</form>
+		</fieldset>
+	<div style ="float:right;width:70%;">
+</div>
+	<div style ="background-color:grey;clear:both"><center>&copy;W.G,November 2024	</center></div>
+</body>
+</html>
