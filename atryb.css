@@ -1,0 +1,21 @@
+p[align] {
+	color:red;
+}
+p.klasa1[align="right"] {
+	color:white;
+}
+body {
+	background-color:lightgray;
+}
+[title~="opis"] {
+	color:red;
+	text-decoration:underline;
+	border-style:dotted;
+	background-color:white;
+	font-size:30px;
+	border-color:red;
+}
+i span {
+	color:blue;
+	font-size:20px;
+}

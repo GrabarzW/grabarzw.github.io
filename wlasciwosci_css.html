@@ -3,6 +3,12 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <head><style type ="text/css">
+	div#rozmiar {
+		width:58%;
+		height:45%;
+		border: 1px solid green;
+		padding :10px 15px 20px 25px;
+	}
 	p {
 		font-family:"Courier New";
 		font-style:italic;
@@ -38,6 +44,7 @@
 		background-position:right center;
 		background-repeat:no-repeat;
 		background-attachment:fixed;
+		margin:0px 10px 10px 5px;
 		
 	}
 	div#obramowanie1{
@@ -58,7 +65,7 @@
 		border-color:yellow;
 		border-style:ridge;
 		font-variant:small-caps;
-		text-align:right
+		text-align:right;
 	}
 	h3#zadanie2{
 		text-decoration:overline;
@@ -77,13 +84,136 @@
 		text-align:center;
 		color:white;
 		background-color:fuchsia;
-		border-width:3px;
-		border-style:dotted;
+		border:3px dotted black;
 		padding:20px;
 		width:70%;
 		background-clip:content-box;
 	}
-	
+	h3#zadanie5{
+		color:gray;
+		font-family:Brush Script MT;
+		background-color:yellow;
+		word-spacing:40px;
+		border-style:groove;
+	}
+	h2#ramka1{
+		background-color:white;
+		color:black;
+		padding:5px;
+		width:70%;
+		border-width:30px;
+		border-style:solid;
+		border-image:url(fotywg/papeteria.png) 50 stretch;
+		}
+	h2#ramka2{
+		background-color:white;
+		color:black;
+		padding:10px;
+		width:70%;
+		border-width:30px;
+		border-style:solid;
+		border-image:url(fotywg/papeteria.png) 50 round;
+	}
+	h2#ramka3 {	
+	color:black;
+	padding:5px;
+	width:33%;
+	border: 50px solid;
+	border-image:url(fotywg/misiu.gif) 100 round;
+	}
+	a.new:link,a.new:visited {
+		color:black;
+		text-decoration:none;
+		background-color:fuchsia;
+		border-style:solid;
+		border-radius:5px;
+		margin-left:10px;
+	}
+	a.new:active {
+		color:silver;
+		text-decoration:none;
+		background-color:black;
+		border-style:dashed;
+		border-radius:5px;
+		margin-left:10px;
+	}
+	a.new:hover {
+		color:yellow;
+		text-decoration:none;
+		background-color:green;
+		border-style:dotted;
+		border-radius:5px;
+		margin-left:10px;
+	}
+	a.new2:link,a.new2:visited {
+		color:black;
+		text-decoration:none;
+		background-color:yellow;
+		border-style:double;
+		border-radius:5px;
+		margin-left:10px;
+		padding:10px;
+		background-clip:content-box;
+	}
+	a.new2:active {
+		color:white;
+		text-decoration:none;
+		background-color:red;
+		border-style:dashed;
+		border-radius:5px;
+		margin-left:10px;
+		padding:10px;
+		background-clip:content-box;
+	}
+	a.new2:hover {
+		color:aqua;
+		text-decoration:none;
+		background-color:green;
+		border-style:outset;
+		border-radius:5px;
+		margin-left:10px;
+		padding:10px;
+		background-clip:content-box;
+	}
+	ol.punkty {
+		list-style-type:circle;
+		list-style-position: outside;
+		color:fuchsia;
+		font-family:arial;
+	}
+	ul.punkty{
+		list-style-type:upper-alpha;
+		list-style-position: outside;
+		color:gold;
+		font-family:ravie;
+	}
+	ol.punktyobr {
+		list-style-image:url(fotywg/alonso1.gif);
+		list-style-position: outside;
+		color:silver;
+		font-family:arial;
+	li.punktyobr3{
+		list-style-image:url(fotywg/alonso.gif);
+		list-style-position: outside;
+		color:silver;
+		font-family:arial;
+	}
+	li.punktyobr1 {
+		list-style-image:url(fotywg/alonso2.gif);
+		list-style-position: outside;
+		color:silver;
+		font-family:arial;
+	}
+	li.punktyobr2 {
+		list-style-image:url(fotywg/alonso3.gif);
+		list-style-position: outside;
+		color:silver;
+		font-family:arial;
+	}
+	table,tr,td {
+	cursor:crosshair;
+	}
+
 	
 <title>Moja pierwsza strona www</title>
 </style></head>
@@ -131,6 +261,46 @@
 	<h3 class="zadanie1">KOLOR TEKSTU: SREBRNY, CZARNE TŁO, ŻÓŁTE OBRAMOWANIE, STYL OBRAMOWANIA: RIDGE, DUŻE LITERY / KAPITALIKI, TEKST USTAWIONY: DO PRAWEJ, BRAK DEKORACJI</h3>
 	<h3 id="zadanie2">TEKST NAKREŚLONY, ODSTĘPY MIĘDZY ZNAKAMI W TEKŚCIE 5 PT, WYŚRODKOWANY TEST, KOLOR TEKSTU BIAŁY, TŁO FUCHSIA, OBRAMOWANIE 3PX KROPOWANE BĄDŹ INSET BIAŁE, ODSTĘP 20 PX, SZEROKOŚĆ 70%</h3>
 	<h3 id="zadanie2b">TEKST NAKREŚLONY, ODSTĘPY MIĘDZY ZNAKAMI W TEKŚCIE 5 PT, WYŚRODKOWANY TEST, KOLOR TEKSTU BIAŁY, TŁO FUCHSIA, OBRAMOWANIE 3PX KROPOWANE BĄDŹ INSET BIAŁE, ODSTĘP 20 PX, SZEROKOŚĆ 70%</h3>
+	Zadanie 5
+	<h3 id="zadanie5">To jest przykładowy tekst ktory jest czescia zadania dodatkowego<h3>
+	Zadanie 6
+	<h2 id="ramka1">Ustawienie obramowania obrazkowego dla nagłówka h2 - z identyfikatorem "ramka1" TŁO: białe; TEKST: czarny, ODSTĘP: 10px, SZEROKOŚĆ: 70%; border: 30px solid transparent; border-image: url(folder/nazwa.jpg) 50 stretch; OBRAZ JEST ROZCIĄGNIĘTY ABY WYPEŁNIĆ CAŁY OBSZAR.</h2>
+	<h2 id="ramka2">zadanie IV – OBRAMOWANIE: Ustawienie obramowania obrazkowego dla nagłówka h2 - z identyfikatorem "ramka2" TŁO: białe; TEKST: czarny, ODSTĘP: 10px, SZEROKOŚĆ: 70%; border: 30px solid transparent; border-image: url(folder/nazwa.jpg) 50 round; OBRAZ WYPEŁNIA OBSZAR. W RAZIE POTRZEBY JEST PRZESKALOWNY, ABY WYPEŁNIĆ OBSZAR.</h2>
+	<h2 id="ramka3">zadanie IV – OBRAMOWANIE: Ustawienie obramowania obrazkowego dla nagłówka h2 - z identyfikatorem "ramka3" TŁO: none; TEKST: czarny, ODSTĘP: 5px, SZEROKOŚĆ: 33%; border: 50 px solid; border-image: url(foty/gwiazdka1.gif) 100 round;</h2>
+	<a class="new" href ="https://www.onet.pl/" target="new"> Onet </a>
+	<a class="new" href ="https://tsi-pai.cba.pl/" target="new"> TSI </a>
+	<a class="new" href ="https://www.wp.pl/" target="new"> WP </a> <br /><br />
+	<a class="new2" href ="https://www.google.pl/" target="new"> GOOGLE </a>
+	<a class="new2" href ="https://zspm.pl/" target="new"> ZSPM </a>
+	<a class="new2" href ="https://tsi-pai.cba.pl/" target="new"> TSI </a> <br /><br />
+	<ol class="punkty">PIĘĆ ZALET PRZEDMIOTU PSI:
+		<li>to co tworzę od razu otrzmuję</li>
+		<li>ciekawy przedmiot</li>
+		<li>rodzinna atmosfera</li>
+		<li>bardzo dużo nowych informacji</li>
+		<li>nauczenie się języków HTML CSS</li>
+	</ol>
+	<br />
+	<ul class="punkty">TRZY WADY PRZEDMIOTU TSI:
+		<li>jak kogoś nie ma na zajęciach to jest w lesie</li>
+		<li>zbyt dużo nowego materiału do nauczenia</li>
+		<li>więcej minusów braka</li>
+	</ul>
+	<ol class="punktyobr">PIĘĆ ZALET PRZEDMIOTU PSI:
+		<li>to co tworzę od razu otrzmuję</li>
+		<li class="punktyobr3">ciekawy przedmiot</li>
+		<li>rodzinna atmosfera</li>
+		<li class="punktyobr2">bardzo dużo nowych informacji</li>
+		<li class="punktyobr1">nauczenie się języków HTML CSS</li>
+	</ol>
+	<table border="1" width="30%">
+	<tr>
+	<td>1</td>
+	<td>2</td>
+	</tr>
+	</table> <br />
+	<div id="rozmiar">zadanie VIII – ROZMIAR: Ustawienie wysokości (8%) i szerokości (45%) dla elementu div#rozmiarKolor i rodzaj obramowania dobierz samodzielnie div#rozmiar { height: 8%; width: 45%; border: ...........; }</div>
+	
 </div>
 	<div style ="background-color:grey;clear:both"><center>&copy;W.G,November 2024	</center></div>
 </body>
